@@ -13,7 +13,7 @@ graph = tf.get_default_graph()
 
 #loading our trained model
 print("Keras model loading.......")
-model = load_model('food_ai/data/_inceptionV3_.32-0.84.hdf5')
+model = load_model('food_ai/data/food_ai_model.hdf5')
 encoder = pickle.load(open('food_ai/data/cls_name','rb'))
 print("Model loaded!!")
 
