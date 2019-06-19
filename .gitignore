@@ -1,1 +1,2 @@
 .vscode
+food_ai/data/*.hdf5
